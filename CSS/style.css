@@ -12,8 +12,17 @@ h2,
 .logo {
     font-family: "Boots And Spurs", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .product-list h2 {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
 }
 
 header,
@@ -26,10 +35,19 @@ header a {
     color: white;
 }
 
+/* Links */
+a {
+    text-decoration: none;
+}
+
 .cta {
     background-color: #bb0000;
     color: #fff;
     font-size: 1.5em;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .reviews{
