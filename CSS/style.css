@@ -60,7 +60,7 @@ nav li {
 
 header,
 footer {
-    background-color: #202020;
+    background-color: var(--header-footer);
     color: #fff;
     text-align: center;
 }
